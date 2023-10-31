@@ -1,4 +1,4 @@
-Dataset
+##Dataset
 
 Fashion-MNIST is a dataset of Zalando's article images-consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.
 * Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total.
@@ -22,10 +22,10 @@ Image dimensions are 28x28.
 The train set and test set are given in two separate datasets.
  Running the Code
 Install the dependencies from the 'requirements.txt' file and then run the 'evaluate_model.py'.
-Data Preprocessing
+##Data Preprocessing
 Data is preprocessed to a shape of (60000,28,28,1)
 
-Model
+##Model
 Sequential model have been used.The Sequential model is a linear stack of layers. It can be first initialized and then we add layers using add method or we can add all layers at init stage. The layers added are as follows:
 * Conv2D is a 2D Convolutional layer (i.e. spatial convolution over images). The parameters used are:
 * filters - the number of filters (Kernels) used with this layer; here filters = 32;
